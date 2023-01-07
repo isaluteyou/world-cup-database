@@ -9,14 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ce32cf8-b68e-4798-84ad-f5c55c5a9455" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/wc22_database_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/wc22_database_jar/wc22_database.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
+    <list default="true" id="1ce32cf8-b68e-4798-84ad-f5c55c5a9455" name="Changes" comment="new changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Baze de date - Temă de casă.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/World Cup 2022 - Documentatie.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,14 @@
       <option name="presentableId" value="Default" />
       <updated>1672682220878</updated>
     </task>
+    <task id="LOCAL-00001" summary="new changes">
+      <created>1673131884066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673131884066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,7 +110,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="new changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="new changes" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
