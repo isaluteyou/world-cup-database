@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="837.0" styleClass="label" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/18.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="TeamsScreenController">
+   <children>
+      <ScrollPane layoutX="-1.0" prefHeight="453.0" prefWidth="838.0">
+         <content>
+            <TableView fx:id="tableView" focusTraversable="false" prefHeight="450.0" prefWidth="835.0">
+              <columns>
+                <TableColumn fx:id="nameColumn" prefWidth="218.0" text="Name" />
+                <TableColumn fx:id="associationColumn" minWidth="0.0" prefWidth="214.0" text="Association" />
+                  <TableColumn fx:id="rankColumn" prefWidth="138.0" text="Fifa Ranking" />
+                  <TableColumn fx:id="potColumn" minWidth="0.0" prefWidth="129.0" text="Pot" />
+                  <TableColumn fx:id="groupColumn" minWidth="0.0" prefWidth="131.0" text="Group" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Button fx:id="newTeam" layoutX="641.0" layoutY="497.0" mnemonicParsing="false" onAction="#newTeamButton" text="New Team" />
+      <HBox layoutX="40.0" layoutY="497.0" spacing="15.0">
+         <children>
+            <TextField fx:id="nameField" />
+            <TextField fx:id="associationField" />
+            <TextField fx:id="rankField" prefHeight="25.0" prefWidth="66.0" />
+            <TextField fx:id="potField" prefHeight="25.0" prefWidth="66.0" />
+            <TextField fx:id="groupField" prefHeight="25.0" prefWidth="66.0" />
+         </children>
+      </HBox>
+      <Label layoutX="93.0" layoutY="480.0" text="Name" textFill="WHITE" />
+      <Label layoutX="249.0" layoutY="480.0" text="Association" textFill="WHITE" />
+      <Label layoutX="386.0" layoutY="480.0" text="Rank" textFill="WHITE" />
+      <Label layoutX="472.0" layoutY="480.0" text="Pot" textFill="WHITE" />
+      <Label layoutX="546.0" layoutY="480.0" text="Group" textFill="WHITE" />
+      <Label layoutX="174.0" layoutY="542.0" prefHeight="25.0" prefWidth="256.0" text="Select the team you want to delete here:" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="delete" layoutX="641.0" layoutY="542.0" mnemonicParsing="false" onAction="#deleteButton" prefHeight="25.0" prefWidth="73.0" text="Delete" />
+      <Button fx:id="modify" layoutX="731.0" layoutY="497.0" mnemonicParsing="false" onAction="#modifyButton" prefHeight="25.0" prefWidth="73.0" text="Modify" />
+      <Button fx:id="back" layoutX="730.0" layoutY="542.0" mnemonicParsing="false" onAction="#backButton" prefHeight="25.0" prefWidth="73.0" text="Back" />
+      <ComboBox fx:id="deleteField" layoutX="446.0" layoutY="542.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

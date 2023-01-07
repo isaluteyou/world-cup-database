@@ -1,0 +1,12 @@
+.root, .menu {
+    -fx-background-image: url("qatar_background.jpg");
+    -fx-background-size: cover;
+}
+
+.label {
+    -fx-color: #fff;
+}
+
+.table-column {
+  -fx-alignment: CENTER-RIGHT;
+}
